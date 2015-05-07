@@ -76,8 +76,8 @@ public class GetAllFavListViewAdapter extends BaseAdapter
             JSONObject jsonObject = this.dataArray.getJSONObject(position);
 
             // Populate the view using the JSON object
-            cell.Show.setText("Show: "+jsonObject.getString("Show"));
-            cell.Channel.setText("Channel: "+jsonObject.getString("Channel"));
+            //cell.Show.setText("Show: "+jsonObject.getString("Show"));
+            //cell.Channel.setText("Channel: "+jsonObject.getString("Channel"));
             //cell.Brand.setText("Brand: "+jsonObject.getString("Brand"));
             //cell.RegNumber.setText("RegNumber: "+jsonObject.getString("RegNumber"));
 
